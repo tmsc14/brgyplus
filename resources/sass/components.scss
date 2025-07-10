@@ -1,0 +1,292 @@
+@import 'variables';
+@import 'table';
+@import 'pagination';
+@import 'nav-tabs';
+
+.brgy-bg-theme {
+    background-color: var(--brgy-background-color);
+}
+
+.brgy-bg-primary {
+    background-color: var(--brgy-primary-color) !important;
+}
+
+.brgy-bg-secondary {
+    background-color: var(--brgy-secondary-color);
+}
+
+.brgy-color-primary {
+    color: var(--brgy-primary-color);
+}
+
+.brgy-color-text {
+    color: var(--brgy-text-color);
+}
+
+.brgy-color-secondary {
+    color: var(--brgy-secondary-color);
+}
+
+.brgy-primary-text {
+    color: var(--brgy-primary-text-color) !important;
+}
+
+.brgy-bg-content {
+    background-color: var(--brgy-content-color);
+}
+
+.brgy-content-text {
+    color: var(--brgy-content-text-color);
+}
+
+.brgy-theme-text {
+    color: var(--brgy-background-text-color);
+}
+
+.big-header {
+    font-size: 3rem !important;
+}
+
+.brgy-header {
+    box-shadow: 0px 4px 5px -2px lightgrey;
+}
+
+.brgy-container-content {
+}
+
+.checkbox-container {
+    flex-basis: 0;
+}
+
+.btn.brgy-widget {
+    --bs-btn-hover-bg: var(--brgy-secondary-hover-color);
+    --bs-btn-hover-color: var(--brgy-primary-hover-color);
+}
+
+.min-width-zero {
+    min-width: 0;
+}
+
+.picture-header {
+    max-width: 250px;
+    max-height: 250px;
+    aspect-ratio: 1 / 1;
+}
+
+.sidebar-logo {
+    max-width: 150px;
+    max-height: 150px;
+
+    img {
+        aspect-ratio: 1 / 1;
+    }
+}
+
+.preview-image {
+    max-width: 150px;
+    margin-top: 10px;
+    display: block;
+}
+
+.square {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.bigger-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.official-profile-photo {
+    width: 100px;
+    height: 100px
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.latest-announcement-photo {
+    width: 150px;
+    height: 150px;
+}
+
+.line {
+    margin: .5rem 0;
+}
+
+.nav-brgy {
+    --bs-nav-link-color: var(--brgy-primary-text-color);
+    --bs-nav-link-hover-color: var(--brgy-primary-text-hover-color);
+}
+
+.nav-link-brgy {
+    --bs-nav-pills-link-active-color: var(--brgy-highlight-text-color);
+    --bs-nav-pills-link-active-bg: var(--brgy-secondary-color);
+}
+
+.btn-primary-brown {
+    --bs-btn-color: #{$secondary-brown};
+    --bs-btn-bg: #{$primary-brown};
+    --bs-btn-border-color: #{$primary-brown};
+    --bs-btn-hover-color: #{$secondary-brown};
+    --bs-btn-hover-bg: rgb(87, 53, 30);
+    --bs-btn-hover-border-color: rgb(87, 53, 30);
+    --bs-btn-focus-shadow-rgb: 207, 179, 138;
+    --bs-btn-active-color: #{$primary-brown};
+    --bs-btn-active-bg: rgb(87, 53, 30);
+    --bs-btn-active-border-color: rgb(92, 65, 47);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(206, 197, 178);
+    --bs-btn-disabled-bg: rgb(61, 47, 37);
+    --bs-btn-disabled-border-color: rgb(61, 47, 37);
+}
+
+.btn-primary-brgy {
+    --bs-btn-color: var(--brgy-primary-text-color);
+    --bs-btn-bg: var(--brgy-primary-color);
+    --bs-btn-border-color: var(--brgy-primary-color);
+    --bs-btn-active-color: var(--brgy-primary-color);
+    --bs-btn-active-bg: var(--brgy-primary-color);
+    --bs-btn-active-border-color: var(--brgy-primary-color);
+    --bs-btn-hover-color: var(--brgy-primary-text-hover-color);
+    --bs-btn-hover-bg: var(--brgy-primary-hover-color);
+}
+
+.btn-secondary-brgy {
+    --bs-btn-color: var(--brgy-primary-color);
+    --bs-btn-bg: var(--brgy-secondary-color);
+    --bs-btn-border-color: var(--brgy-secondary-color);
+    --bs-btn-active-color: var(--brgy-secondary-color);
+    --bs-btn-active-bg: var(--brgy-secondary-color);
+    --bs-btn-active-border-color: var(--brgy-secondary-color);
+    --bs-btn-hover-color: var(--brgy-secondary-text-color);
+    --bs-btn-hover-bg: var(--brgy-secondary-hover-color);
+}
+
+.btn-secondary-brown {
+    --bs-btn-color: #{$primary-brown};
+    --bs-btn-bg: #{$secondary-brown};
+    --bs-btn-border-color: #{$secondary-brown};
+    --bs-btn-hover-color: #{$primary-brown};
+    --bs-btn-hover-bg: rgb(205, 185, 155);
+    --bs-btn-hover-border-color: rgb(205, 185, 155);
+    --bs-btn-focus-shadow-rgb: 207, 179, 138;
+    --bs-btn-active-color: #{$primary-brown};
+    --bs-btn-active-bg: rgb(205, 185, 155);
+    --bs-btn-active-border-color: rgb(207, 179, 138);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #{$primary-brown};
+    --bs-btn-disabled-bg: #{$secondary-brown};
+    --bs-btn-disabled-border-color: #{$secondary-brown};
+}
+
+.full-view-height {
+    height: 100vh;
+}
+
+.solo-card-container {
+    padding: 1.5rem;
+}
+
+.card.solo-card {
+    border-radius: 1rem;
+}
+
+.wizard-container>div {
+    width: 100%;
+}
+
+.document-types-container {
+    display: grid;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 1rem;
+}
+
+.document-type-entry {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.document-type-entry .type-name {
+    font-size: xx-large;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.document-type-entry .request-btn {
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+// Documents
+.document-preview {
+    padding: var(--section-padding);
+    background-color: var(--light-brown);
+    border-radius: 12px;
+}
+
+.preview-header {
+    text-align: center;
+    color: white;
+    padding: var(--section-padding);
+    background-color: var(--brown);
+    border-radius: 12px;
+    margin: 0;
+}
+
+.document-preview-content {
+    display: flex;
+    justify-content: center;
+}
+
+.document-preview-button-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 575.98px) {
+    .mobile-full-height {
+        height: 100%;
+    }
+
+    .card.solo-card {
+        border-radius: 0;
+        padding: 0 !important;
+    }
+
+    .solo-card-container {
+        padding: 0;
+    }
+
+    .document-types-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .picture-header {
+        max-width: 100px;
+        max-height: 100px;
+        aspect-ratio: 1 / 1;
+    }
+
+    .big-header {
+        font-size: 1.5rem !important;
+    }
+}

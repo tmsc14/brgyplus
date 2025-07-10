@@ -1,0 +1,74 @@
+.requests-container {
+    background-color: var(--theme-color);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
+}
+
+.requests-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.requests-table th, .requests-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.requests-table th {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.requests-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.requests-table tr:hover {
+    background-color: var(--secondary-color);
+}
+
+.approve-btn, .deny-btn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.deny-btn {
+    background-color: #f44336;
+}
+
+.approve-btn:hover, .deny-btn:hover {
+    opacity: 0.8;
+}
+
+.view-history {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.view-history:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}

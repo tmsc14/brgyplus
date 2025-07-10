@@ -1,0 +1,37 @@
+// Typography
+$font-family-sans-serif: 'Arial', sans-serif;
+$font-size-base: 0.93rem;
+$line-height-base: 1.6;
+
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.75;
+$h3-font-size: $font-size-base * 1.25;
+$h4-font-size: $font-size-base;
+$h5-font-size: $font-size-base * .91;
+$h6-font-size: $font-size-base * .8;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+
+// Color codes
+$primary-brown: #543b2b;
+$secondary-brown: #f5e9d2;
+$secondary-brown-darker: #d9caad;
+
+$light-blue: #a7d2eb;
+$light-green: #74b7a0;
+$light-brown: #b6977d;
+
+// Body
+$body-bg: #fff;
+$body-color: black;
+$offcanvas-horizontal-width: 300px;
+
+// Nav tabs
+$nav-tabs-link-active-bg: $secondary-brown;
