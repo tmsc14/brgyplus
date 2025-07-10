@@ -1,0 +1,52 @@
+BRGY Plus
+This is the configuration guide for setting up the BRGY Plus project.
+Prerequisites
+
+PHP (>= 8.0)
+Composer
+Node.js and npm
+MySQL or another supported database
+Git
+
+Setup Instructions
+
+Clone the Repository
+git clone: https://github.com/tmsc14/brgyplus.git
+cd brgy-plus
+
+Set Up Environment
+
+Copy the .env.example file to create a .env file:cp .env.example .env
+
+Configure your database settings in the .env file (e.g., DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+
+Optional: SVG File for Specific Error
+
+If required, create an SVG file and place it in the resources directory to handle specific error cases.
+
+Install Dependencies
+
+Install PHP dependencies using Composer:composer install
+
+Install JavaScript dependencies using npm:npm install
+
+
+Set Up the Application
+
+
+Generate a new application key:php artisan key:generate
+
+Run database migrations to set up the database:php artisan migrate:fresh
+
+Alternatively, run migrations without dropping the database:php artisan migrate
+
+Run the Development Server
+
+Start the development server for the frontend:npm run dev
+
+In a separate terminal, start the Laravel development server:php artisan serve
+
+Notes
+
+Ensure your database is running and properly configured in the .env file before running migrations.
+The SVG file in the resources directory is optional and only needed for specific error handling.
